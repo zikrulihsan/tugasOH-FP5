@@ -30,6 +30,17 @@ li {
 section {
   padding-top: 90px;
 }
+.btn {
+  background: grey;
+  color: black;
+  font-weight: bolder;
+  border-inline: none;
+}
+.btn:hover {
+  color: white;
+  font-weight: bolder;
+  border-inline: none;
+}
 
 .carousel-caption h5 {
   color: orangered;
@@ -59,17 +70,24 @@ footer h6 {
 }
 .contactform {
   color: black;
+  width: 700px;
+  margin: auto;
+  /* justify-content: center; */
 }
 .form-label {
-  color: rgb(5, 112, 5);
+  color: grey;
   font-weight: bolder;
 }
 .headingcontact {
   padding-bottom: 30px;
+  text-align: center;
 }
 
 /* DarkMode or Light Mode */
-
+body.light {
+  background-color: #fff;
+  color: black;
+}
 .checkbox {
   opacity: 0;
   position: absolute;
@@ -87,8 +105,8 @@ footer h6 {
   width: 50px;
   transform: scale(1.5);
 }
-.label .ball {
-  background-color: red;
+.label .redcircle {
+  background-color: orangered;
   border-radius: 50%;
   position: absolute;
   top: 2px;
@@ -99,12 +117,10 @@ footer h6 {
   transition: transform 0.2s linear;
 }
 
-.checkbox:checked + .label .ball {
+.checkbox:checked + .label .redcircle {
   transform: translateX(24px);
 }
-body.light {
-  background-color: #fff;
-  color: black;
+
 }
 .collapse ul {
   margin-right: 30px;

@@ -45,7 +45,7 @@
             <label class="label" for="lightmode">
               <i class="bi bi-lightbulb-off text-dark"></i>
               <i class="bi bi-lightbulb-off-fill text-dark"></i>
-              <div class="ball"></div>
+              <div class="redcircle"></div>
             </label>
           </div>
     </nav>
@@ -254,7 +254,7 @@
     <!-- Contact Start -->
 <section id="contact">
 <div class="container">
-    <div class="headingcontact" style="margin: auto;">
+    <div class="headingcontact">
     <h1>Contact me <i class="bi bi-telephone-inbound-fill text-success ms-3"></i></h1>
   </div>
 <div class="contactform">
@@ -290,11 +290,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
  
     <!-- JavaScript Lightmode -->
- <script>
 
+ <script>
 const lightmode = document.getElementById("lightmode");
 
-lightmode.addEventListener("change", () => {
+  lightmode.addEventListener("change", () => {
   document.body.classList.toggle("light");
 });
   </script>
