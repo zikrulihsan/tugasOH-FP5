@@ -3,10 +3,12 @@ body.light {
   background-color: #fff;
   color: black;
 }
+
 .checkbox {
   opacity: 0;
   position: absolute;
 }
+
 .label {
   background-color: yellow;
   border-radius: 50px;
@@ -20,8 +22,9 @@ body.light {
   width: 50px;
   transform: scale(1.5);
 }
+
 .label .redcircle {
-  background-color: orangered;
+  background-color: #282828;
   border-radius: 50%;
   position: absolute;
   top: 2px;
@@ -31,6 +34,18 @@ body.light {
   transform: translateX(0px);
   transition: transform 0.2s linear;
 }
+
 .checkbox:checked + .label .redcircle {
   transform: translateX(24px);
+}
+
+.label i {
+  color: black;
+}
+
+.redcircle i {
+  color: yellow;
+  display: flex;
+  padding-left: 5px;
+  padding-top: 1.5px;
 }
