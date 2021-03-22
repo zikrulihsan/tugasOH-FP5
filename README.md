@@ -1,4 +1,4 @@
-# Github Pages : for Full Preview for Portfolio, Get it now at the link below :
+# Github Pages : Full Preview Portfolio, Get it now at the link below :
 
 https://budyhartono55.github.io/tugasOH-FP5/
 
